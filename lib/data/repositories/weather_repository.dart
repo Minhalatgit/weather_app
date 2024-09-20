@@ -14,7 +14,7 @@ class WeatherRepository {
 
       final data = jsonDecode(weatherData);
 
-      if (data['cod'] == 200) {
+      if (data['cod'] == '200') {
         return WeatherModel.fromJson(data);
       }
 

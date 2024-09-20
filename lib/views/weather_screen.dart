@@ -83,8 +83,8 @@ class WeatherScreen extends StatelessWidget {
                             // value: data.city?.name ?? "",
                           ),
                           HorizontalText(
-                            title: 'Weather icon',
-                            value: data.city?.name ?? "",
+                            title: 'Weather',
+                            value: "",
                             widget: Image.network("https://openweathermap.org/img/wn/${data.list?.first.weather?.first.icon}.png"),
                           ),
                         ],
